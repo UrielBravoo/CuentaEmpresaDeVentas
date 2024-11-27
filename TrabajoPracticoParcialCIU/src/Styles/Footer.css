@@ -1,0 +1,22 @@
+.footer {
+  padding: 10px;
+  background: #ccc;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-logo {
+  width: 50px;  /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+}

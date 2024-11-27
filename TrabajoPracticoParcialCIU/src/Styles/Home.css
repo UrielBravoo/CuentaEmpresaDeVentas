@@ -1,0 +1,139 @@
+/* Estilos Generales */
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5F8; /* Fondo suave de rosa pastel */
+  padding: 40px 20px;
+  min-height: 100vh; /* Asegura que la página ocupe toda la altura */
+}
+
+/* Encabezado Principal */
+.home-header {
+  background-color: #FF69B4; /* Rosa Chicle */
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/* Menú de Navegación */
+.home-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.home-nav a {
+  text-decoration: none;
+  color: #D5006D; /* Rosa oscuro */
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.home-nav a:hover {
+  background-color: #FF69B4; /* Rosa chicle */
+  color: white;
+  transform: translateY(-5px); /* Efecto de desplazamiento */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de Imágenes */
+.home-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.home-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.home-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Video */
+.home-iframe {
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 15px;
+  border: 3px solid #FF69B4;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Información de Contacto */
+.home-contact {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.home-contact strong {
+  font-weight: 600;
+}
+
+.home-contact p {
+  margin: 10px 0;
+}
+
+/* Botón de Contacto */
+.home-contact-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  background-color: #FF69B4; /* Rosa chicle */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.home-contact-button:hover {
+  background-color: #D5006D; /* Rosa más oscuro */
+}
+
+/* Pie de Página */
+.home-footer {
+  background-color: #FF69B4; /* Rosa chicle */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-footer p {
+  font-size: 1rem;
+}
+
+/* Estilo de Títulos */
+h2 {
+  color: #D5006D;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
