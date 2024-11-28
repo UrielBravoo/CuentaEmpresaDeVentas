@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Footer.css';  // Asegúrate de que la ruta sea correcta
+import '../Styles/Footer.css';
 import logo from '/images/unahur.jpg';
 
 const Footer = () => {
