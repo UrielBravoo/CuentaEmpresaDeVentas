@@ -5,7 +5,7 @@ Este proyecto es una aplicación web diseñada para gestionar las cuentas de una
 ## Tecnologías Usadas
 
 - **Frontend**: React, Bootstrap
-- **Backend**: Node.js (si corresponde), PHP (si es aplicable)
+- **Backend**: Node.js
 - **Base de datos**: MySQL o cualquier otro sistema de gestión de bases de datos
 - **Librerías adicionales**: Axios, FontAwesome, React-Bootstrap
 - **Herramientas**: Git, GitHub, Vite (para desarrollo)
