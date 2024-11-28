@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../Styles/Header.css";  // Esto debería ser correcto si Header.jsx está en src/components/
+import "../Styles/Header.css";  
 
 
 const Header = () => {
